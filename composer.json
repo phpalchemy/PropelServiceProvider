@@ -1,0 +1,18 @@
+{
+    "name": "phpalchemy/propel-service-provider",
+    "type": "library",
+    "description": "Propel integration for PhpAlchemy.",
+    "keywords": ["php", "phpalchemy", "propel", "service", "provider"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Erik Amaru Ortiz",
+        "email": "aortiz.erik@gmail.com"
+    }],
+    "require": {
+        "phpalchemy/phpalchemy": "1.0.*@dev",
+        "propel/propel": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Alchemy": "src" }
+    }
+}
