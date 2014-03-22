@@ -8,9 +8,15 @@
         "name": "Erik Amaru Ortiz",
         "email": "aortiz.erik@gmail.com"
     }],
+    "minimum-stability": "stable",
     "require": {
         "phpalchemy/phpalchemy": "1.0.*@dev",
         "propel/propel": "2.0.*@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     },
     "autoload": {
         "psr-0": { "Alchemy": "src" }
