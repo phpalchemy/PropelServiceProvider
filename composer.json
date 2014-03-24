@@ -10,7 +10,7 @@
     }],
     "require": {
         "phpalchemy/phpalchemy": "1.0.*@dev",
-        "propel/propel": "2.0.*@alpha"
+        "propel/propel": "2.0.*@dev"
     },
     "extra": {
         "branch-alias": {
